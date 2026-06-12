@@ -1,0 +1,57 @@
+{
+  "date": "2026-06-13",
+  "title": "AI内存芯片超级周期加速验证，全球算力基础设施扩张与半导体估值重构并行推进",
+  "body": "☀️全球动态\n\n【国际消息】\n6月12日，美国内存芯片巨头Micron股价在960至1012美元区间震荡，市值稳居万亿美元俱乐部，6月24日Q3财报备受市场瞩目，HBM产能持续供不应求。\n6月12日，分析机构指出Micron FY2026 Q2营收达238.6亿美元、同比大增196%，Intel数据中心AI营收同比增22%至约51亿美元，AI带动半导体内存超级周期持续验证。\n6月13日，分析师报告显示NVIDIA、Broadcom、TSMC仍是2026年AI基础设施投资核心标的，超大规模云厂商资本支出预计突破7000亿美元。\n6月13日，AI芯片板块在经历6月初短暂回调（AMD单日跌超10%、英伟达下挫）后加速企稳，机构判断回调属估值技术性修复而非基本面转折。\n6月12日，HBM及DRAM高端存储供应持续偏紧，Micron、SK海力士等预计先进存储容量至少售罄至2027年，供需结构性矛盾支撑价格上行。\n\n【国内消息】\n6月12日，A股算力板块背景：国内头部算力租赁企业协创数据26Q1营收60.85亿同比增193%、利通电子Q1净利润同比增821%，行业景气度在二季度延续验证。\n6月12日，华为昇腾生态持续扩张，昇腾950DT计划四季度推出，算力达2PFLOPS，CANN框架全面开源，国产算力在政务、能源等战略领域市占率超70%。\n6月12日，国内云厂商腾讯云、阿里云等已多次上调云服务价格，算力租赁从【卖算力】向【卖Token】模式演进，行业盈利天花板持续上移。\n\n🎇行情演绎\n\n【国际公司】\nMicron（HBM+内存超级周期）：6月12日，股价区间960-1012美元，FY2026 Q2营收238.6亿美元同比暴增196%，毛利率75%，Q3指引335亿美元；HBM供应紧缺延续，判断高端AI存储价格中期维持强势。\nNVIDIA（GPU+算力生态）：近期经历短暂估值回调后快速企稳，Jensen Huang明确表示回调为买入机会；Vera Rubin平台量产推进，NVLink Fusion策略绑定云厂商生态，AI数据中心收入护城河持续拓宽。\nMarvell（自定义芯片+互联）：Teralynx T100交换芯片发布，NVIDIA战略入股20亿美元、双方NVLink Fusion深度整合，自定义XPU与光互联成长路径清晰，市值目标万亿美元。\nBroadcom（定制AI ASIC+基础设施软件）：FY2026 Q2营收221.9亿同比增48%，Q3收入指引294亿同比增84%；AI半导体季度收入预期达160亿美元，Google TPU等定制ASIC需求旺盛。\nIntel（代工转型+数据中心AI）：Q1数据中心AI营收同比增22%至约51亿美元，18A制程节点推进，唯一美国本土领先代工备选标的。\n\n【国内公司】\n（本日未检索到协创数据、宏景科技、利通电子、盈峰环境、长信科技任何一家在2026-06-12或2026-06-13发布的交易所公告或重大新闻，依规不列入。）\n\n📈核心推荐\n\n首推：协创数据（Q1营收同比+193%、净利同比+343%，算力集群交付提速、Token化收入模式落地，行业龙头地位确立），利通电子（Q1净利同比+821%，GPU上架率近100%，腾讯等头部客户深度绑定，业绩弹性极高）\n重点关注：宏景科技、盈峰环境、长信科技",
+  "sources": [
+    {
+      "title": "Micron Technology (MU) Stock Price June 12 2026 — Robinhood",
+      "url": "https://robinhood.com/us/en/stocks/MU/",
+      "desc": "国际消息：Micron 6月12日股价区间960-1012美元"
+    },
+    {
+      "title": "Micron and Intel lead AI chip surge — Published June 12 2026",
+      "url": "https://eciks.org/8372-62971-micron-intel-ai-stock-analysis",
+      "desc": "国际消息：Micron FY2026 Q2营收238.6亿美元同比+196%；Intel数据中心AI营收分析"
+    },
+    {
+      "title": "Nvidia, Broadcom, and TSMC: The Best Semiconductor Stocks to Watch in 2026 — CoinCentral",
+      "url": "https://coincentral.com/nvidia-broadcom-and-tsmc-the-best-semiconductor-stocks-to-watch-in-2026/",
+      "desc": "国际消息：NVIDIA/Broadcom/TSMC为2026年AI基础设施核心标的，超大规模资本支出预测"
+    },
+    {
+      "title": "AI Semiconductor Stocks Selloff June 2026: $1.4T Crash Analysis — Intellectia.AI",
+      "url": "https://intellectia.ai/blog/ai-semiconductor-selloff-june-2026",
+      "desc": "国际消息/行情演绎：6月初AI芯片板块回调分析（Broadcom、Marvell、NVIDIA），判断属技术性修复"
+    },
+    {
+      "title": "Broadcom Q2 FY2026 Financial Results — SEC Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "desc": "行情演绎：Broadcom FY2026 Q2营收221.9亿同比+48%，Q3收入指引294亿美元"
+    },
+    {
+      "title": "Marvell Joins S&P 500 But AI Chip Gains Come With a Twist — TS2 Tech",
+      "url": "https://ts2.tech/en/marvell-joins-sp-500-but-ai-chip-gains-come-with-a-twist/",
+      "desc": "行情演绎：Marvell Teralynx T100发布，NVIDIA战略入股20亿美元，NVLink Fusion整合"
+    },
+    {
+      "title": "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion — NVIDIA Newsroom",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-AI-Ecosystem-Expands-as-Marvell-Joins-Forces-Through-NVLink-Fusion/default.aspx",
+      "desc": "行情演绎：NVIDIA投资Marvell 20亿美元，NVLink Fusion战略合作正式宣布"
+    },
+    {
+      "title": "华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代 — 新浪手机网",
+      "url": "https://news.sina.cn/bignews/insight/2026-06-02/detail-inhzzivn3140797.d.html",
+      "desc": "国内消息：华为昇腾生态扩张，CANN框架开源，战略领域市占率超70%"
+    },
+    {
+      "title": "算力租赁企业业绩增长，行业景气持续验证 — 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260513A06BG500",
+      "desc": "国内公司背景：协创数据Q1营收+193%、利通电子Q1净利+821%等算力租赁行业景气数据汇总"
+    },
+    {
+      "title": "算力租赁，多家公司业绩爆发 — 21经济网",
+      "url": "https://www.21jingji.com/article/20260430/herald/d1c2427fb473559512cde8727e4f8d2c.html",
+      "desc": "核心推荐逻辑：利通电子、协创数据Q1净利润暴增，算力从训练侧延伸至推理侧需求分析"
+    }
+  ]
+}

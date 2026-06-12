@@ -3,28 +3,420 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI算力简报 · 准备中</title>
+  <title>2026-06-13 · AI内存芯片超级周期加速验证，全球算力基础设施扩张与半导体估值重构并行推进</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap');
+
+    :root {
+      --ink:       #0f0f0f;
+      --ink-2:     #2a2a2a;
+      --ink-3:     #6b6b6b;
+      --rule:      #d8d0c4;
+      --paper:     #f7f4ef;
+      --paper-2:   #efe9e0;
+      --accent:    #b5451b;
+      --accent-2:  #1b4db5;
+      --tag-bg:    #eae4da;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { font-size: 16px; }
+
     body {
-      font-family: 'PingFang SC', system-ui, sans-serif;
-      background: #f7f4ef;
-      color: #0f0f0f;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Noto Sans SC', 'PingFang SC', system-ui, sans-serif;
+      font-weight: 400;
+      line-height: 1.8;
+      min-height: 100vh;
+    }
+
+    /* ── MASTHEAD ── */
+    .masthead {
+      border-bottom: 3px double var(--ink);
+      padding: 28px 0 20px;
+      text-align: center;
+      background: var(--paper);
+    }
+    .masthead-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.68rem;
+      letter-spacing: 0.18em;
+      color: var(--ink-3);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .masthead-title {
+      font-family: 'Noto Serif SC', serif;
+      font-size: clamp(1.4rem, 3.5vw, 2.1rem);
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      line-height: 1.35;
+      color: var(--ink);
+      max-width: 680px;
+      margin: 0 auto 14px;
+      padding: 0 24px;
+    }
+    .masthead-meta {
       display: flex;
       align-items: center;
       justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 24px;
+      gap: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--ink-3);
     }
-    .box { max-width: 420px; }
-    h1 { font-size: 1.2rem; margin-bottom: 12px; }
-    p { color: #6b6b6b; font-size: 0.9rem; line-height: 1.8; }
+    .masthead-meta .date {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* ── LAYOUT ── */
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ── ACTION BAR ── */
+    .action-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--rule);
+      margin-bottom: 36px;
+    }
+    .copy-btn {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border: 1.5px solid var(--ink);
+      border-radius: 2px;
+      padding: 7px 18px;
+      cursor: pointer;
+      transition: all 0.15s;
+      letter-spacing: 0.04em;
+      background: var(--ink);
+      color: var(--paper);
+    }
+    .copy-btn:hover { background: var(--ink-2); }
+    .copy-btn.copied {
+      background: #1a6e35;
+      border-color: #1a6e35;
+    }
+    .update-note {
+      font-size: 0.7rem;
+      color: var(--ink-3);
+      font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* ── BODY CONTENT ── */
+    #briefing-body {
+      font-family: 'Noto Sans SC', sans-serif;
+      font-size: 0.97rem;
+      line-height: 2;
+      color: var(--ink-2);
+    }
+
+    /* Section headers like ☀️全球动态 */
+    .section-header {
+      font-family: 'Noto Serif SC', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin: 36px 0 18px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--ink);
+      letter-spacing: 0.03em;
+    }
+    .section-header:first-child { margin-top: 0; }
+
+    /* Sub-headers like 【国际消息】 */
+    .sub-header {
+      font-family: 'Noto Serif SC', serif;
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--accent);
+      letter-spacing: 0.06em;
+      margin: 22px 0 10px;
+      text-transform: uppercase;
+    }
+
+    /* Individual news items */
+    .news-item {
+      padding: 10px 0 10px 16px;
+      border-left: 2px solid var(--rule);
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+      line-height: 1.85;
+    }
+    .news-item:hover { border-left-color: var(--accent); }
+
+    /* Company name in 行情演绎 */
+    .company-name {
+      font-weight: 600;
+      color: var(--ink);
+    }
+
+    /* 核心推荐 */
+    .rec-section {
+      background: var(--paper-2);
+      border: 1.5px solid var(--rule);
+      border-radius: 3px;
+      padding: 22px 24px;
+      margin: 28px 0;
+    }
+    .rec-primary {
+      font-family: 'Noto Serif SC', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+      line-height: 1.9;
+      margin-bottom: 8px;
+    }
+    .rec-watch {
+      font-size: 0.88rem;
+      color: var(--ink-3);
+      line-height: 1.8;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--rule);
+      margin: 40px 0;
+    }
+
+    /* ── SOURCES ── */
+    .sources-section {
+      padding: 24px 0 48px;
+    }
+    .sources-header {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-3);
+      margin-bottom: 18px;
+    }
+    .sources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 10px;
+    }
+    .source-card {
+      border: 1px solid var(--rule);
+      border-radius: 2px;
+      padding: 10px 14px;
+      background: var(--paper);
+      transition: border-color 0.15s;
+    }
+    .source-card:hover { border-color: var(--ink-3); }
+    .source-card a {
+      color: var(--accent-2);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 500;
+      display: block;
+      margin-bottom: 3px;
+      line-height: 1.4;
+    }
+    .source-card a:hover { text-decoration: underline; }
+    .source-desc {
+      font-size: 0.72rem;
+      color: var(--ink-3);
+      font-family: 'JetBrains Mono', monospace;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* ── TOAST ── */
+    .toast {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%) translateY(80px);
+      background: var(--ink);
+      color: var(--paper);
+      font-size: 0.82rem;
+      padding: 10px 22px;
+      border-radius: 3px;
+      opacity: 0;
+      transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+      pointer-events: none;
+      white-space: nowrap;
+      font-family: 'Noto Sans SC', sans-serif;
+    }
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center;
+      padding: 24px 0 48px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.68rem;
+      color: var(--ink-3);
+      letter-spacing: 0.06em;
+    }
+    .footer a { color: var(--ink-3); text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      .sources-grid { grid-template-columns: 1fr; }
+      .masthead-meta { flex-wrap: wrap; gap: 10px; }
+      .action-bar { flex-wrap: wrap; gap: 10px; }
+    }
   </style>
 </head>
 <body>
-  <div class="box">
-    <h1>📡 简报生成中…</h1>
-    <p>首次内容尚未生成。请到仓库的 Actions 页面手动运行一次 "Daily Briefing" workflow，几分钟后刷新此页面即可看到内容。之后每天会自动更新。</p>
+
+<div class="masthead">
+  <div class="masthead-label">AI · 算力 · 投资简报</div>
+  <div class="masthead-title">AI内存芯片超级周期加速验证，全球算力基础设施扩张与半导体估值重构并行推进</div>
+  <div class="masthead-meta">
+    <span class="date">2026-06-13</span>
   </div>
+</div>
+
+<div class="container">
+  <div class="action-bar">
+    <button class="copy-btn" onclick="copyContent()">📋 复制全文</button>
+    <span class="update-note">更新于 2026-06-13 03:59 (北京时间)</span>
+  </div>
+
+  <div id="briefing-body">
+    <div class="section-header">☀️全球动态</div>
+<div class="sub-header">【国际消息】</div>
+<div class="news-item">6月12日，美国内存芯片巨头Micron股价在960至1012美元区间震荡，市值稳居万亿美元俱乐部，6月24日Q3财报备受市场瞩目，HBM产能持续供不应求。</div>
+<div class="news-item">6月12日，分析机构指出Micron FY2026 Q2营收达238.6亿美元、同比大增196%，Intel数据中心AI营收同比增22%至约51亿美元，AI带动半导体内存超级周期持续验证。</div>
+<div class="news-item">6月13日，分析师报告显示NVIDIA、Broadcom、TSMC仍是2026年AI基础设施投资核心标的，超大规模云厂商资本支出预计突破7000亿美元。</div>
+<div class="news-item">6月13日，AI芯片板块在经历6月初短暂回调（AMD单日跌超10%、英伟达下挫）后加速企稳，机构判断回调属估值技术性修复而非基本面转折。</div>
+<div class="news-item">6月12日，HBM及DRAM高端存储供应持续偏紧，Micron、SK海力士等预计先进存储容量至少售罄至2027年，供需结构性矛盾支撑价格上行。</div>
+<div class="sub-header">【国内消息】</div>
+<div class="news-item">6月12日，A股算力板块背景：国内头部算力租赁企业协创数据26Q1营收60.85亿同比增193%、利通电子Q1净利润同比增821%，行业景气度在二季度延续验证。</div>
+<div class="news-item">6月12日，华为昇腾生态持续扩张，昇腾950DT计划四季度推出，算力达2PFLOPS，CANN框架全面开源，国产算力在政务、能源等战略领域市占率超70%。</div>
+<div class="news-item">6月12日，国内云厂商腾讯云、阿里云等已多次上调云服务价格，算力租赁从【卖算力】向【卖Token】模式演进，行业盈利天花板持续上移。</div>
+<div class="section-header">🎇行情演绎</div>
+<div class="sub-header">【国际公司】</div>
+<div class="news-item"><span class="company-name">Micron</span>（HBM+内存超级周期）：6月12日，股价区间960-1012美元，FY2026 Q2营收238.6亿美元同比暴增196%，毛利率75%，Q3指引335亿美元；HBM供应紧缺延续，判断高端AI存储价格中期维持强势。</div>
+<div class="news-item"><span class="company-name">NVIDIA</span>（GPU+算力生态）：近期经历短暂估值回调后快速企稳，Jensen Huang明确表示回调为买入机会；Vera Rubin平台量产推进，NVLink Fusion策略绑定云厂商生态，AI数据中心收入护城河持续拓宽。</div>
+<div class="news-item"><span class="company-name">Marvell</span>（自定义芯片+互联）：Teralynx T100交换芯片发布，NVIDIA战略入股20亿美元、双方NVLink Fusion深度整合，自定义XPU与光互联成长路径清晰，市值目标万亿美元。</div>
+<div class="news-item"><span class="company-name">Broadcom</span>（定制AI ASIC+基础设施软件）：FY2026 Q2营收221.9亿同比增48%，Q3收入指引294亿同比增84%；AI半导体季度收入预期达160亿美元，Google TPU等定制ASIC需求旺盛。</div>
+<div class="news-item"><span class="company-name">Intel</span>（代工转型+数据中心AI）：Q1数据中心AI营收同比增22%至约51亿美元，18A制程节点推进，唯一美国本土领先代工备选标的。</div>
+<div class="sub-header">【国内公司】</div>
+<div class="news-item">（本日未检索到协创数据、宏景科技、利通电子、盈峰环境、长信科技任何一家在2026-06-12或2026-06-13发布的交易所公告或重大新闻，依规不列入。）</div>
+<div class="section-header">📈核心推荐</div>
+<div class="rec-section">
+<div class="rec-primary">首推：协创数据（Q1营收同比+193%、净利同比+343%，算力集群交付提速、Token化收入模式落地，行业龙头地位确立），利通电子（Q1净利同比+821%，GPU上架率近100%，腾讯等头部客户深度绑定，业绩弹性极高）</div>
+<div class="rec-watch">重点关注：宏景科技、盈峰环境、长信科技</div>
+</div>
+  </div>
+
+  <hr class="divider">
+
+  
+  <div class="sources-section">
+    <div class="sources-header">📎 内容来源  ·  10 条</div>
+    <div class="sources-grid">
+      
+      <div class="source-card">
+        <a href="https://robinhood.com/us/en/stocks/MU/" target="_blank" rel="noopener">Micron Technology (MU) Stock Price June 12 2026 — Robinhood</a>
+        <div class="source-desc">国际消息：Micron 6月12日股价区间960-1012美元</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://eciks.org/8372-62971-micron-intel-ai-stock-analysis" target="_blank" rel="noopener">Micron and Intel lead AI chip surge — Published June 12 2026</a>
+        <div class="source-desc">国际消息：Micron FY2026 Q2营收238.6亿美元同比+196%；Intel数据中心AI营收分析</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://coincentral.com/nvidia-broadcom-and-tsmc-the-best-semiconductor-stocks-to-watch-in-2026/" target="_blank" rel="noopener">Nvidia, Broadcom, and TSMC: The Best Semiconductor Stocks to Watch in 2026 — CoinCentral</a>
+        <div class="source-desc">国际消息：NVIDIA/Broadcom/TSMC为2026年AI基础设施核心标的，超大规模资本支出预测</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://intellectia.ai/blog/ai-semiconductor-selloff-june-2026" target="_blank" rel="noopener">AI Semiconductor Stocks Selloff June 2026: $1.4T Crash Analysis — Intellectia.AI</a>
+        <div class="source-desc">国际消息/行情演绎：6月初AI芯片板块回调分析（Broadcom、Marvell、NVIDIA），判断属技术性修复</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000051/avgo-05032026x8kxex99.htm" target="_blank" rel="noopener">Broadcom Q2 FY2026 Financial Results — SEC Form 8-K</a>
+        <div class="source-desc">行情演绎：Broadcom FY2026 Q2营收221.9亿同比+48%，Q3收入指引294亿美元</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://ts2.tech/en/marvell-joins-sp-500-but-ai-chip-gains-come-with-a-twist/" target="_blank" rel="noopener">Marvell Joins S&P 500 But AI Chip Gains Come With a Twist — TS2 Tech</a>
+        <div class="source-desc">行情演绎：Marvell Teralynx T100发布，NVIDIA战略入股20亿美元，NVLink Fusion整合</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-AI-Ecosystem-Expands-as-Marvell-Joins-Forces-Through-NVLink-Fusion/default.aspx" target="_blank" rel="noopener">NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion — NVIDIA Newsroom</a>
+        <div class="source-desc">行情演绎：NVIDIA投资Marvell 20亿美元，NVLink Fusion战略合作正式宣布</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://news.sina.cn/bignews/insight/2026-06-02/detail-inhzzivn3140797.d.html" target="_blank" rel="noopener">华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代 — 新浪手机网</a>
+        <div class="source-desc">国内消息：华为昇腾生态扩张，CANN框架开源，战略领域市占率超70%</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://news.qq.com/rain/a/20260513A06BG500" target="_blank" rel="noopener">算力租赁企业业绩增长，行业景气持续验证 — 腾讯新闻</a>
+        <div class="source-desc">国内公司背景：协创数据Q1营收+193%、利通电子Q1净利+821%等算力租赁行业景气数据汇总</div>
+      </div>
+      
+      <div class="source-card">
+        <a href="https://www.21jingji.com/article/20260430/herald/d1c2427fb473559512cde8727e4f8d2c.html" target="_blank" rel="noopener">算力租赁，多家公司业绩爆发 — 21经济网</a>
+        <div class="source-desc">核心推荐逻辑：利通电子、协创数据Q1净利润暴增，算力从训练侧延伸至推理侧需求分析</div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<div class="footer">每日北京时间自动更新一次</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+  function copyContent() {
+    const btn = document.querySelector('.copy-btn');
+    const date = document.querySelector('.masthead-meta .date').innerText;
+    const title = document.querySelector('.masthead-title').innerText;
+    const body = document.getElementById('briefing-body').innerText;
+    const text = date + ' ' + title + '\n\n' + body;
+    navigator.clipboard.writeText(text).then(() => {
+      btn.textContent = '✓ 已复制';
+      btn.classList.add('copied');
+      showToast('全文已复制到剪贴板');
+      setTimeout(() => {
+        btn.textContent = '📋 复制全文';
+        btn.classList.remove('copied');
+      }, 2500);
+    }).catch(() => {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.cssText = 'position:fixed;opacity:0';
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      showToast('全文已复制');
+    });
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 2200);
+  }
+</script>
+
 </body>
 </html>
