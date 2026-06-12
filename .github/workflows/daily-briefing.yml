@@ -3,7 +3,7 @@ name: Daily Briefing
 on:
   schedule:
     # 00:00 UTC = 08:00 北京时间，每天自动运行一次
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * 0-4'
   workflow_dispatch:   # 允许在 Actions 页面手动点击运行
 
 permissions:
