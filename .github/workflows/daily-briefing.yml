@@ -1,0 +1,36 @@
+name: Daily Briefing
+
+on:
+  schedule:
+    # 00:00 UTC = 08:00 北京时间，每天自动运行一次
+    - cron: '0 0 * * *'
+  workflow_dispatch:   # 允许在 Actions 页面手动点击运行
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate.py
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "更新每日简报"
+          file_pattern: docs/**
