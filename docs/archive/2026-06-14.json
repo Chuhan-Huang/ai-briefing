@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-14",
+  "title": "AI超大规模基建加速与民间阻力并行，算力租赁景气延续、国产替代稳步推进",
+  "body": "☀️全球动态\n\n【国际消息】\n6月13日，研究机构数据显示，2026年一季度美国至少75个总价值约1300亿美元的数据中心项目遭到社区反对、阻拦或推迟，创历史单季新高，全美反对团体数量从396个骤增至833个，各州议会在2026年前六周已提出逾300项监管法案，AI基础设施扩张面临来自能耗与用水争议的结构性阻力。\n6月13日，据业内简报汇总，OpenAI正就租赁俄亥俄州联邦土地上一座10吉瓦级数据中心园区进行深度谈判，NVIDIA拟提供信用支持作为财务背书，SoftBank旗下SB Energy承诺配套建设至少9.2吉瓦天然气发电设施，若落地将成为全球最大单址算力集群。\n6月12日，KKR联合科威特投资局、NVIDIA及能源公司Vistra正式宣布成立Helix Digital Infrastructure，初始长期资本承诺超100亿美元，由前亚马逊云服务CEO出任领导，定位为超大规模云厂算力、电力与网络一站式交付平台，NVIDIA作为核心战略合作方负责DSX AI工厂架构集成。\n6月13日，全球数据中心总数已超过11600座，其中美国逾4300座，AI需求持续推动建设加速，同时数据中心热排放研究揭示其对本地气候的潜在影响，监管关注度持续上升。\n\n【国内消息】\n6月14日（近期持续），华为昇腾950PR芯片已于今年4月进入大批量量产，全年出货目标75万片，定价7万元人民币，约为NVIDIA同级产品的三分之一，字节、阿里等头部厂商计划大规模采购，国产大模型与国产芯片全栈闭环正在形成。\n6月14日（近期），工信部已建成万卡智算集群42个，智能算力规模超1590 EFLOPS位居全球前列，国产算力互联互通行动计划持续推进，算力基础设施建设从分散走向全国一体化。\n6月14日（近期），A股算力租赁板块一季报密集披露，行业景气持续获验证：协创数据Q1营收同比增约193%，扣非净利同比增约354%；利通电子Q1扣非净利同比增约860%，云涨价周期叠加高端GPU供给偏紧形成量价齐升格局。\n\n🎇行情演绎\n\n【国际公司】\nNVIDIA（超大规模基建+芯片生态）：6月13日，深度绑定OpenAI俄亥俄州10GW数据中心谈判并拟提供信用背书，同步作为KKR旗下Helix Digital Infrastructure核心战略合作方，Vera Rubin平台首个吉瓦算力目标定于2026年下半年落地，其从芯片硬件延伸至AI工厂交付与融资的战略纵深持续加深，护城河进一步扩宽。\nMarvell（定制硅+AI互联）：6月初在台北电脑展获得强力背书，定制AI基础设施平台受市场高度关注，AI芯片营收高速增长，半导体板块6月5日集体回调后有望随大规模数据中心订单确定性提升而修复。\nKKR/Helix（AI基础设施资本平台）：6月12日正式落地，填补超大规模云厂自建执行缺口，已有逾25%公告项目未能如期交付，Helix作为统一协调方可提升数据中心项目落地率，电力捆绑模式具备先发壁垒。\nBroadcom（ASIC定制+云AI芯片）：6月初财报Q3 AI芯片营收指引160亿美元低于预期，引发板块整体回调，但Q2 AI芯片营收同比增143%至108亿美元基本面依然强劲，短期估值扰动后中长期逻辑未变。\n\n【国内公司】\n协创数据（算力租赁+AI集群）：Q1营收60.85亿元同比增193%，扣非净利7.51亿元同比增354%，多个大型算力集群项目陆续交付计费，2026年新增200亿元采购计划在手，行业龙头地位持续巩固，受益于云涨价与GPU供给偏紧的量价齐升格局。\n利通电子（算力云服务+精密结构件）：Q1收入9.97亿元同比增42%，扣非净利2.78亿元同比增860%，主营业务已转型至算力云服务赛道，弹性显著；期间股价4月14日至5月29日累计涨幅偏离200%触发异常波动披露，监管已关注。\n\n📈核心推荐\n\n首推：协创数据（行业龙头地位明确、Q1业绩三位数增长、在手订单充裕、算力集群持续交付），利通电子（算力云服务赛道转型成功、Q1利润弹性最高、受益云涨价与GPU供给偏紧双重催化）\n重点关注：宏景科技、盈峰环境、长信科技",
+  "sources": [
+    {
+      "title": "More than 75 data center build-outs worth $130 billion blocked in Q1 2026 — Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/more-than-75-data-center-build-outs-worth-usd130-billion-have-been-successfully-blocked-in-the-first-four-months-of-2026-bipartisan-opposition-mounts-nationwide-over-fears-of-soaring-power-and-water-costs",
+      "desc": "国际消息：美国Q1超130亿美元数据中心项目被阻，6月13日报道"
+    },
+    {
+      "title": "5 Notable Data Center Links, June 13 2026 — DatacenterRichness Substack",
+      "url": "https://datacenterrichness.substack.com/p/5-notable-data-center-links-june",
+      "desc": "国际消息：OpenAI俄亥俄州10GW谈判、KKR Helix启动，6月13日简报"
+    },
+    {
+      "title": "Data center opponents have blocked or delayed projects worth nearly $130 billion — NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/data-center-opposition-sharply-rising-2026-study-finds-rcna349728",
+      "desc": "国际消息：Data Center Watch研究，美国数据中心反对浪潮结构性加剧，6月13日"
+    },
+    {
+      "title": "KKR Launches Helix Digital Infrastructure With $10B to Accelerate AI Infrastructure Buildout — HPCwire",
+      "url": "https://www.hpcwire.com/off-the-wire/kkr-launches-helix-digital-infrastructure-with-10b-to-accelerate-ai-infrastructure-buildout/",
+      "desc": "国际公司：KKR联合NVIDIA、科威特主权基金成立Helix，6月12日正式落地"
+    },
+    {
+      "title": "KKR Launches Helix Digital Infrastructure, a New Company to Finance and Deliver AI Infrastructure — Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/kkr-launches-helix-digital-infrastructure-105000467.html",
+      "desc": "国际公司：Helix Digital Infrastructure细节，前AWS CEO领衔，6月11日宣布"
+    },
+    {
+      "title": "OpenAI in Talks to Lease 10 Gigawatt Ohio Data Center with Backing From Nvidia — The Information",
+      "url": "https://www.theinformation.com/articles/openai-talks-lease-10-gigawatt-ohio-data-center-backing-nvidia",
+      "desc": "国际消息：OpenAI与NVIDIA俄亥俄州10GW数据中心深度谈判"
+    },
+    {
+      "title": "OpenAI Negotiates 10-Gigawatt Ohio Data Center Lease With Nvidia as Financial Guarantor — MLQ News",
+      "url": "https://mlq.ai/news/openai-negotiates-10-gigawatt-ohio-data-center-lease-with-nvidia-as-financial-guarantor/",
+      "desc": "国际消息：NVIDIA拟投资最高1000亿美元、首个吉瓦算力目标2026年下半年落地"
+    },
+    {
+      "title": "华为昇腾950PR正式量产！7万定价打穿英伟达，国产AI芯片终于站起来了 — 知乎",
+      "url": "https://zhuanlan.zhihu.com/p/2026893491125467122",
+      "desc": "国内消息：昇腾950PR量产，全年75万片出货目标，国产大模型闭环形成"
+    },
+    {
+      "title": "工业富联全光CPO机柜提前出货，算力链大涨——算力租赁一季报综述 — 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260513A06BG500",
+      "desc": "国内公司：协创数据/利通电子/宏景科技/盈峰环境Q1业绩数据汇总"
+    },
+    {
+      "title": "算力租赁巨头业绩狂飙 期货新玩法也要来了 — 新浪财经",
+      "url": "https://finance.sina.com.cn/stock/roll/2026-05-14/doc-inhxvihq0234360.shtml",
+      "desc": "国内公司：协创数据/利通电子算力租赁板块行业景气与估值逻辑分析"
+    },
+    {
+      "title": "利通电子股票交易严重异常波动暨风险提示 — 证券之星",
+      "url": "https://stock.stockstar.com/notice/SN2026052900046194.shtml",
+      "desc": "国内公司：利通电子主营已转型至算力云服务，监管关注异常波动风险"
+    },
+    {
+      "title": "Semiconductor Selloff and Nvidia Chip Rebound Explained — HeyGoTrade",
+      "url": "https://www.heygotrade.com/en/news/semiconductor-selloff-nvidia-chip-rebound/",
+      "desc": "国际公司：6月6日半导体板块单日最大跌幅，SOXX跌约10%，Broadcom指引引发连锁反应"
+    }
+  ]
+}
