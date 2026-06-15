@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-15",
+  "title": "全球AI算力基础设施投资持续高烧，半导体供应瓶颈与电力约束成核心制约变量",
+  "body": "☀️全球动态\n\n【国际消息】\n6月15日，全球头部云厂商2026年AI数据中心资本开支合计规模预计超6500亿美元，较2025年同比增长约74%，绝大多数资金流向AI芯片、服务器及数据中心基础设施。\n6月15日，美国半导体行业协会联合德勤发布研究报告指出，芯片占AI服务器机架价值的95%以上，到2028年AI数据中心半导体年收入有望突破1.2万亿美元，较近四年增长近十倍。\n6月15日，AI优化数据中心单设施所需电力已达100至500兆瓦，电网供应约束与液化天然气地缘风险成为全球算力扩张的核心瓶颈。\n6月15日，英伟达Blackwell架构机柜功耗已从2023年约15千瓦飙升至80至120千瓦，先进封装与HBM成为当前全球AI芯片交付的最大硬性瓶颈。\n6月15日，Broadcom第三季度AI芯片销售额指引为160亿美元，低于市场预期的172亿美元，引发市场对AI半导体增长节奏的阶段性修正。\n\n【国内消息】\n6月15日，据行业报告，国内战略领域政务、能源、航天等方向国产算力占有率已超70%，互联网头部厂商2026年一季度国产算力订单超220亿元，国产替代进程持续加速。\n6月15日，工业和信息化部推进【算力互联互通行动计划】，中国信通院发布《智能算力服务研究报告（2026年）》，构建三层服务体系，推动智算产业从拼硬件向拼服务转型。\n6月15日，国内H200算力租赁价格2026年上半年每卡月租金从约5.5万元涨至8.5至9万元，部分云厂商涨幅超50%，高端GPU供给瓶颈预计延续至2027年。\n6月15日，全球AI算力发展研究报告在天津世界智能产业博览会发布，提出算力已成为支撑国家技术突破与战略布局的关键基础要素，智算中心进入超大规模集群与绿色低碳新阶段。\n\n🎇行情演绎\n\n【国际公司】\nNVIDIA（Blackwell架构+算力扩张）：6月15日，Blackwell B300芯片单卡功耗达1400瓦，新单交付周期拉长至12至18个月，供给稀缺格局持续，推断其算力卖方议价权长期处于高位。\nBroadcom（自定义AI芯片+云厂商定制）：6月15日，Q2营收219亿美元超预期，但Q3 AI芯片销售指引160亿美元低于市场估计，短期股价承压，中长期AI定制芯片需求逻辑不变。\nMarvell（定制硅+AI网络互联）：6月15日，COMPUTEX获行业高度背书，2026年年初至今涨幅曾达141%，AI网络互联芯片及自定义数据中心处理器需求确定性高。\nAMD（数据中心GPU+服务器CPU）：6月15日，一季度数据中心营收58亿美元同比增长57%，全年GPU收入目标150亿美元增幅114%，国际云厂商多供应商策略为其持续开拓份额。\nTSMC（先进制程+AI芯片代工）：6月15日，垄断全球约68%高端晶圆代工市场，超大规模云厂商资本开支同比增长36%驱动先进节点需求持续加深，为全球AI算力核心卡脖环节。\n\n【国内公司】\n\n📈核心推荐\n\n首推：协创数据（算力租赁龙头，2026年Q1营收同比增长193%，净利润增长354%，多个大型算力集群项目陆续交付计费，全年净利润有望超30亿元，估值切换空间充裕），宏景科技（算力租赁转型加速，定向增发方案已获深交所审核通过，算力业务占比持续提升，营收利润进入集中释放阶段）\n重点关注：利通电子、盈峰环境、长信科技",
+  "sources": [
+    {
+      "title": "Big Tech set to spend $650 billion in 2026 as AI investments soar - Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/big-tech-set-to-spend-650-billion-in-2026-as-ai-investments-soar-163907630.html",
+      "desc": "全球云厂商2026年AI数据中心资本开支合计规模超6500亿美元"
+    },
+    {
+      "title": "New Report Finds Semiconductors Account for 95% of an AI Data Server Rack's Value - SIA",
+      "url": "https://www.semiconductors.org/new-report-finds-semiconductors-account-for-95-of-an-ai-data-server-racks-value-encompassing-the-full-stack-of-chip-technologies/",
+      "desc": "美国半导体行业协会报告：芯片占AI服务器机架价值95%，2028年AI数据中心半导体年收入超1.2万亿美元"
+    },
+    {
+      "title": "The great data center delay: Why your AI chips are stuck in 2026 - Manufacturing Dive",
+      "url": "https://www.manufacturingdive.com/news/opinion-omdia-ai-semiconductor-chip-scarcity/817172/",
+      "desc": "AI数据中心电力约束与HBM供给瓶颈分析"
+    },
+    {
+      "title": "What Triggered the Recent Semiconductor Sell-Off - Kavout",
+      "url": "https://www.kavout.com/market-lens/what-triggered-the-recent-semiconductor-sell-off",
+      "desc": "Broadcom Q2业绩及Q3 AI芯片销售指引低于预期引发半导体板块修正"
+    },
+    {
+      "title": "AI Chip Stocks Rally: Nvidia, Broadcom, Marvell Climb - HeyGoTrade",
+      "url": "https://www.heygotrade.com/en/news/ai-chip-stocks-nvidia-broadcom-marvell-rally/",
+      "desc": "AMD数据中心营收、Marvell获NVIDIA背书及AI芯片板块整体行情"
+    },
+    {
+      "title": "NVIDIA AI Chip Roadmap Update for US Data Centers 2026 - xthe.com",
+      "url": "https://xthe.com/news/nvidia-ai-chip-roadmap-update-for-us-data-centers/",
+      "desc": "NVIDIA Blackwell B300功耗与机柜密度最新数据"
+    },
+    {
+      "title": "华为昇腾芯片技术突破，能否在2026年内实现AI算力全面国产替代 - 新浪",
+      "url": "https://news.sina.cn/bignews/insight/2026-06-02/detail-inhzzivn3140797.d.html",
+      "desc": "国产算力替代进展：战略领域昇腾占有率超70%，头部互联网Q1订单超220亿元"
+    },
+    {
+      "title": "算力租赁巨头业绩狂飙 行业高景气持续验证 - 新浪财经",
+      "url": "https://finance.sina.com.cn/roll/2026-05-14/doc-inhxvihq0234360.shtml",
+      "desc": "协创数据、宏景科技、利通电子2026年Q1业绩数据及算力租赁行业景气分析"
+    },
+    {
+      "title": "工业富联全光CPO机柜提前出货，算力链大涨 - 腾讯新闻",
+      "url": "https://news.qq.com/rain/a/20260513A06BG500",
+      "desc": "算力租赁公司一季报汇总：协创数据、利通电子、宏景科技、盈峰环境核心财务数据"
+    },
+    {
+      "title": "2026全球AI算力报告及算力产业十大趋势发布 - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33264077",
+      "desc": "全球AI算力产业进入智算驱动、体系重构新阶段，AI芯片与算力中心关键趋势"
+    },
+    {
+      "title": "宏景科技（301396）：算力业务已具规模，迈向下一成长期 - 主线罗盘",
+      "url": "https://www.ai-gupiao.com/research/summary/34086",
+      "desc": "宏景科技算力租赁业务转型进展及定向增发审核通过情况"
+    },
+    {
+      "title": "Data Center World 2026: AI Pushes Infrastructure to New Limits - DCK",
+      "url": "https://www.datacenterknowledge.com/build-design/data-center-world-2026-ai-pushes-infrastructure-to-new-limits",
+      "desc": "Oracle、NVIDIA、Google共识：AI数据中心向高度集成计算系统转型，机架密度已达数百千瓦"
+    }
+  ]
+}
