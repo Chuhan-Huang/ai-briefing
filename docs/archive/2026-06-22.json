@@ -1,0 +1,72 @@
+{
+  "date": "2026-06-22",
+  "title": "全球AI算力基础设施扩张提速，国产算力替代加速兑现，GPU租赁价格进入结构性上行周期",
+  "body": "☀️全球动态\n\n【国际消息】\n6月22日，全球云端GPU算力租赁市场最新价格数据显示，高端Blackwell B200系列小时租赁价最高达5.98美元，算力供给持续偏紧，推理需求爆发推动租价结构性上行。\n6月22日，Broadcom完成季度现金股息除息（每股0.65美元），分析师维持看涨评级，指出AI定制芯片业务景气持续，Q3营收指引约294亿美元（同比增84%），AI半导体收入预计单季达160亿美元。\n6月21日，英伟达下季度（Q2 FY27）营收指引910亿美元，Vera Rubin NVL72机架系统进入量产交付阶段，预计Q3 2026起大规模出货，每Token成本有望降低至上代十分之一。\n6月21日，算力基础设施扩张规模超预期，全球数据中心AI负载容量2026年约达62GW，预计2030年达156GW，年复合增速超20%；超大规模机柜功率密度已从30-40kW向百千瓦乃至兆瓦量级跃迁。\n6月21日，先进封装成为AI芯片量产核心瓶颈，台积电CoWoS产能缺口约20-30%，HBM供应持续紧张，SK海力士2026年全年HBM产能基本售罄。\n\n【国内消息】\n6月22日，国内算力租赁市场GPU云价格持续高位，主要云厂商年内已多次涨价，Blackwell系列算力资源出现较大供需缺口，国产昇腾算力加速填补空白。\n6月21日，DeepSeek-V4已将华为昇腾与英伟达GPU并列写入硬件验证清单，国产算力从【政策驱动】加速迈向【订单兑现】，华为昇腾预计2026年占中国AI加速器市场份额约50%。\n6月21日，国家发改委此前明确指导国产大模型加大力度适配国产算力芯片，政策端持续催化国产算力生态完善，算力互联互通行动计划深入推进。\n6月21日，中国算力中心市场加速结构转型，智算中心已成新型数据中心主导形态，多地出台PUE不高于1.25及提高绿电占比等强制要求，液冷技术从【可选】转为【必选】。\n\n🎇行情演绎\n\n【国际公司】\n英伟达（数据中心+Vera Rubin放量）：Q1 FY27数据中心营收达752亿美元，同比增92%，Q2指引910亿美元再创纪录；Vera Rubin平台进入量产，AI工厂建设加速推动全栈芯片生态护城河持续加深。\nBroadcom（AI定制芯片+除息）：6月22日为季度股息除息日，Q3营收指引294亿美元、AI半导体单季预计160亿美元；谷歌、OpenAI、Anthropic等多家超大客户持续加码定制ASIC采购，长期成长逻辑清晰。\nMarvell（自定义ASIC+光互联+S&P500纳入）：英伟达20亿美元战略投资确立AI基础设施核心地位，Teralynx 100超宽带交换芯片正面挑战光互联市场，纳入标普500指数后资金持续流入，AI生态地位快速强化。\nAMD（GPU+数据中心）：Q1数据中心营收58亿美元同比增57%，MI系列GPU持续放量，年内股价已累涨逾130%，推理侧份额稳步提升，对英伟达形成有效补充。\n\n【国内公司】\n（本日及昨日未见上述五家公司发布符合2026-06-21或2026-06-22日期要求的新公告或重大新闻，依规则跳过不列出）\n\n📈核心推荐\n\n首推：宏景科技（算力租赁转型兑现期、Q1算力租赁拉动业绩高增、定增补充算力集群资产，续租率约85%），协创数据（Q1营收同比+193%、净利润同比+343%，多个大型算力集群稳定计费，机构2026年净利润预测上限30亿元）\n重点关注：利通电子、盈峰环境、长信科技",
+  "sources": [
+    {
+      "title": "Cloud GPU Pricing - Compare 64 Providers (Updated June 22, 2026)",
+      "url": "https://getdeploying.com/gpus",
+      "desc": "国际消息：6月22日GPU云租赁价格最新数据，Blackwell算力供需偏紧"
+    },
+    {
+      "title": "Broadcom AVGO Stock - Dividend ex-date June 22, 2026",
+      "url": "https://finance.yahoo.com/quote/AVGO/",
+      "desc": "国际消息：Broadcom季度股息6月22日除息及AI芯片业务景气分析"
+    },
+    {
+      "title": "NVIDIA Q1 FY2027 Financial Results - SEC 8-K (May 20, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm",
+      "desc": "国际消息：英伟达Q1 FY27数据中心营收752亿美元，Q2指引910亿美元"
+    },
+    {
+      "title": "NVIDIA Q1 FY27 CFO Commentary - Data Center Revenue Breakdown",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27cfocommentary.htm",
+      "desc": "国际公司英伟达：数据中心收入分类拆解，Blackwell 300产品放量"
+    },
+    {
+      "title": "AI GPU Rental Market Trends (June 2026) - Thunder Compute",
+      "url": "https://www.thundercompute.com/blog/ai-gpu-rental-market-trends",
+      "desc": "国际消息：全球GPU租赁市场规模及Vera Rubin量产时间线"
+    },
+    {
+      "title": "Marvell Technology Gets Nvidia Backing And A $2 Billion Investment",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-technology-nasdaqgs-mrvl-gets-091158935.html",
+      "desc": "国际公司Marvell：英伟达20亿美元战略投资及AI基础设施核心定位分析"
+    },
+    {
+      "title": "AI Chip Stocks Rally: Nvidia, Broadcom, Marvell Climb - HeyGoTrade",
+      "url": "https://www.heygotrade.com/en/news/ai-chip-stocks-nvidia-broadcom-marvell-rally/",
+      "desc": "国际公司：AMD Q1数据中心营收58亿美元同比+57%，芯片板块整体行情"
+    },
+    {
+      "title": "宏景科技(301396)算力业务已具规模，迈向下一成长期 - AI股票研报",
+      "url": "https://www.ai-gupiao.com/research/summary/34086",
+      "desc": "国内公司宏景科技：算力租赁拉动业绩增长，算力资产大幅增加，中邮证券研报"
+    },
+    {
+      "title": "协创数据(300857)股吧 - 2026全年净利润预测及Baseten算力涨价解读",
+      "url": "https://xueqiu.com/S/SZ300857",
+      "desc": "国内公司协创数据：2026全年净利润预测及Blackwell B200算力租价上涨背景"
+    },
+    {
+      "title": "算力租赁全面涨价：推理需求爆发，产业链最直接受益公司名单 - 东方财富",
+      "url": "https://caifuhao.eastmoney.com/news/20260424002903621618220",
+      "desc": "国内公司：宏景科技、协创数据、利通电子、盈峰环境等算力租赁公司融资及授信情况"
+    },
+    {
+      "title": "2026年5月国内AI算力租用行情全景扫描 - 晨涧云",
+      "url": "https://www.mornai.cn/news/gpu/2026-05-gpu-rent-trend-analysis/",
+      "desc": "国内消息：国发改委5月22日指导国产大模型适配国产算力芯片政策、算力商品化进展"
+    },
+    {
+      "title": "2026全球AI算力发展研究报告发布 - 澎湃新闻",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33264077",
+      "desc": "国内消息：全球算力中心AI负载容量及液冷、绿电等结构转型趋势"
+    },
+    {
+      "title": "Broadcom Q2 FY2026 Financial Results - SEC Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000051/avgo-05032026x8kxex99.htm",
+      "desc": "国际公司Broadcom：Q2营收221.87亿美元同比+48%，Q3指引294亿美元"
+    }
+  ]
+}
