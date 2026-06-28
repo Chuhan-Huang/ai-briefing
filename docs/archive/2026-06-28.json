@@ -1,0 +1,67 @@
+{
+  "date": "2026-06-28",
+  "title": "算力基础设施电力瓶颈与散热革命加剧，新玩家携大客户强势入局数据中心CPU市场",
+  "body": "☀️全球动态\n\n【国际消息】\n6月27日，Data Center World 2026大会上，来自头部云厂的工程师披露：AI数据中心机柜功率密度已从30-40kW跃升至数百千瓦，部分设计接近兆瓦级，传统气冷架构全面失效，液冷成为新标准。\n6月27日，据独立市场监管机构报告，美国最大电网运营商PJM所辖区域因AI数据中心扩张，容量市场电价已出现不可逆的大幅攀升，监管方要求科技巨头承担全部电力基础设施建设成本。\n6月26日，高通正式宣布与Meta签署多代次数据中心CPU战略供应协议，高通Dragonfly C1000芯片将于2028年下半年量产并为Meta下一代服务器集群供电，同期高通上调2029年非手机业务收入目标至400亿美元，数据中心收入目标150亿美元。\n6月27日，高通以39.2亿美元全股票方式收购AI软件公司Modular，意图打造可与英伟达CUDA生态抗衡的硬件无关推理层，进一步强化数据中心全栈竞争力。\n6月27日，据行业数据，美国AI数据中心用电规模预计从当前约180TWh向本十年末400-600TWh大幅迈进，电网扩容时间滞后已成AI算力扩张核心制约。\n\n【国内消息】\n6月27日，国产算力龙头企业发布2026年度向特定对象发行A股股票预案，拟募集资金用于扩大算力集群建设，反映头部算力租赁企业融资需求旺盛，行业景气度持续验证。\n6月28日，据机构统计，2026年国内算力租赁行业Q1集体爆发，多家头部公司营收同比增幅均超40%，Token分成等新商业模式加速渗透，推动估值体系从PE向PS切换。\n6月28日，工信部《算力互联互通行动计划》目标于2026年建立完备算力互联互通标准体系，到2028年实现全国公共算力标准化互联，东数西算格局持续深化。\n\n🎇行情演绎\n\n【国际公司】\n高通（数据中心CPU+大客户锁定）：6月26-27日，高通发布Dragonfly C1000数据中心CPU并签署Meta多代战略协议，同时斥资39.2亿美元收购Modular打造软件生态，正式对标英伟达CUDA护城河；股价盘后跳涨15%后次日有所回落，市场对2028年落地的收入时间表存分歧，但长期方向确认。\n英伟达（GPU算力+全栈生态）：6月27日，Data Center World大会进一步证实其AI工厂架构成行业标准，Blackwell系列GPU现货租赁价格据悉续创新高，算力供给仍处紧张状态，议价权维持强势。\n英特尔（Crescent Island GPU+晶圆代工）：年内计划推出Crescent Island AI数据中心GPU，下半年开始采样，2026年Q2财报预计7月23日披露，市场期待其利润转正，股价年内大幅反弹，处于观察期。\nMarvell（网络芯片+NVLink Fusion）：与英伟达达成NVLink Fusion战略合作，AI与数据中心业务收入增速预期加速；英伟达CEO公开表态Marvell有望成为下一家万亿美元公司，市场情绪积极。\n\n【国内公司】\n协创数据（算力租赁+定向增发）：6月27日发布2026年度向特定对象发行A股股票预案，募资旨在进一步扩大算力集群建设规模；叠加Q1营收同比增长近193%、净利润增长343%的强劲业绩，在手订单充裕、多项目有序交付，为算力租赁板块当前最确定性标的之一。\n\n📈核心推荐\n\n首推：协创数据（6月27日发布定向增发预案，融资扩产意愿明确；Q1业绩爆发式增长、在手订单充裕、商业模式从裸算力向Token分成升级，成长逻辑最为清晰），宏景科技（算力租赁行业头部第二梯队、B300万卡合同持续落地、定增募资获深交所审核通过，弹性较大）\n重点关注：利通电子、盈峰环境、长信科技",
+  "sources": [
+    {
+      "title": "协创数据2026年度向特定对象发行A股股票预案（巨潮资讯PDF）",
+      "url": "http://static.cninfo.com.cn/finalpage/2026-06-27/1225393094.PDF",
+      "desc": "国内公司-协创数据：6月27日发布定向增发预案"
+    },
+    {
+      "title": "Qualcomm and Meta Announce Strategic Multi-Generation Agreement on Data Center CPUs - HPCwire",
+      "url": "https://www.hpcwire.com/off-the-wire/qualcomm-and-meta-announce-strategic-multi-generation-agreement-on-data-center-cpus/",
+      "desc": "国际消息/国际公司-高通：6月26日签署Meta数据中心CPU战略协议"
+    },
+    {
+      "title": "Qualcomm and Meta Announce Strategic Multi-Generation Agreement on Data Center CPUs - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/articles/qualcomm-meta-announce-strategic-193000607.html",
+      "desc": "国际消息-高通Dragonfly C1000 CPU与Meta多代合作详情"
+    },
+    {
+      "title": "Qualcomm lands Meta CPU deal, unveils AI data center platform - Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-chips/qualcomm-lands-meta-cpu-deal-unveils-ai-data-center-platform",
+      "desc": "国际公司-高通：数据中心平台发布及Meta锁单，2029年目标150亿美元"
+    },
+    {
+      "title": "Data Center World 2026: AI Pushes Infrastructure to New Limits - Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/build-design/data-center-world-2026-ai-pushes-infrastructure-to-new-limits",
+      "desc": "国际消息：6月27日Data Center World 2026，AI数据中心功率密度与冷却极限报道"
+    },
+    {
+      "title": "Qualcomm Signs Meta Deal and Doubles Non-Handset Revenue Target to $40 Billion - Eastern Herald",
+      "url": "https://easternherald.com/2026/06/26/qualcomm-meta-dragonfly-data-center-revenue/",
+      "desc": "国际消息-高通：收购Modular 39.2亿美元，挑战英伟达CUDA生态"
+    },
+    {
+      "title": "Qualcomm unveils Dragonfly CPU, signs Meta as first data center customer - Investing.com/Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/articles/qualcomm-unveils-dragonfly-cpu-signs-202746549.html",
+      "desc": "国际公司-高通：Dragonfly C1000发布与Meta锁单，市场估值分歧分析"
+    },
+    {
+      "title": "Qualcomm unveils three new data center solutions including Dragonfly C1000 CPU - Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/qualcomm-unveils-three-new-data-center-solutions-including-qualcomm-dragonfly-c1000-cpu-set-to-be-deployed-by-meta/",
+      "desc": "国际公司-高通：Dragonfly AI300推理加速器与HBC产品详情"
+    },
+    {
+      "title": "Qualcomm Investor Day 2026 - CNBC",
+      "url": "https://www.cnbc.com/2026/06/24/qualcomm-data-center-cpu-meta.html",
+      "desc": "国际消息-高通数据中心CPU发布及Meta大客户战略，非手机收入2029年目标400亿美元"
+    },
+    {
+      "title": "Intel Sets Sights on Nvidia and AMD With Upcoming AI Data Center Chip Launch - Barchart",
+      "url": "https://www.barchart.com/story/news/2266627/intel-sets-sights-on-nvidia-and-amd-with-upcoming-ai-data-center-chip-launch-by-year-end",
+      "desc": "国际公司-英特尔：Crescent Island GPU下半年采样，7月23日财报关键观察窗口"
+    },
+    {
+      "title": "NVIDIA Q1 FY2027 Financial Results - SEC Form 8-K",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000051/q1fy27pr.htm",
+      "desc": "国际公司-英伟达：Q1数据中心收入752亿美元，同比增长92%，AI工厂架构持续扩张"
+    },
+    {
+      "title": "Marvell Technology (MRVL) - Jensen Huang next trillion-dollar company comment - Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/articles/next-1-trillion-ai-winner-164907486.html",
+      "desc": "国际公司-Marvell：英伟达CEO称其有望成下一家万亿美元公司，网络芯片前景强劲"
+    }
+  ]
+}
